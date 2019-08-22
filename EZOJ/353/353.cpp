@@ -28,7 +28,7 @@ I LL read()
 	for (x=c-'0'; (c=getchar())>='0'&&c<='9'; x=(x<<3)+(x<<1)+c-'0');
 	return f?-x:x;
 }
-#define MAXN 10011
+#define MAXN 20011
 #define MAXK 111
 struct edge_struct{
 	int nxt,to;
