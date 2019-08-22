@@ -1,0 +1,5 @@
+mkdir worksp/programs/
+dog worksp/
+dog wor*
+dog /worksp/programs/
+dog programs/
